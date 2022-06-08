@@ -28,6 +28,7 @@ body {
   border-radius: 12px;
   font-size: 18px;
   padding: 6px;
+  text-decoration: none;
 }
 button {
   background-color: transparent;
