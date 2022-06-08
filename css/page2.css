@@ -1,0 +1,25 @@
+* {
+  background-color: black;
+}
+.centro {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.card2 {
+  background-color: rgb(21, 23, 43);
+  height: 50vh;
+  width: 100vw;
+  padding: 50%, 50%;
+  gap: 15px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+}
+.return {
+  color: white;
+  background-color: rgb(103, 58, 183);
+  border-radius: 12px;
+}
