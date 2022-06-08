@@ -33,8 +33,7 @@ body {
 button {
   background-color: transparent;
 }
-.photo{
+.photo {
   border-radius: 12px;
   max-width: 80vw;
-
 }
