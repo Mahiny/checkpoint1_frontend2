@@ -5,13 +5,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40%;
+  margin-top: 40px;
 }
 .card1 {
   background-color: rgb(21, 23, 43);
-  height: 50vh;
-  width: 50vw;
-  padding: 50%, 50%;
+  min-width: 50vw;
+  min-height: 450px;
+  max-height: 800px;
+  max-width: 800px;
   gap: 15px;
   display: flex;
   text-align: center;
@@ -22,7 +23,7 @@
 
 h1 {
   color: white;
-  margin-top: 25%;
+  margin-top: 65px;
   font-size: 32px;
   background-color: rgb(21, 23, 43);
 }
