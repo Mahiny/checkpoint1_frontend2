@@ -6,9 +6,10 @@ form.addEventListener("submit", (e) => {
   const dados = Object.fromEntries(new FormData(form).entries());
   if (cards.length == 1) {
     cards.push(dados);
-    window.location.href = "/page2.html";
     localStorage.setItem("card", JSON.stringify(cards));
-    return
+    form.action = "/page2.html";
+    form.submit()
+    return;
   }
   cards.push(dados);
   form.reset();
