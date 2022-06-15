@@ -7,7 +7,7 @@ form.addEventListener("submit", (e) => {
   if (cards.length == 1) {
     cards.push(dados);
     localStorage.setItem("card", JSON.stringify(cards));
-    form.action = "/page2.html";
+    form.action = "./page2.html";
     form.submit()
     return;
   }
